@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Ch3_5_3.html</title>
+</head>
+<body style=background-image:url(bg15.jpg);background-repeat:no-repeat;background-position:center center;>
+<h1 class=c1><b><p style="color:red;">北海道相簿─依行程順序分類</p></b></h1>
+<table border width=100%>
+<tr><th bgcolor=red> 第1-1 <th> 第1-2 <th> 第1-3 <th> 第1-4 <th bgcolor=#FF0000> 第1-5  
+<tr><th bgcolor=#0033FF> 第2-1 <th colspan=3, rowspan=4> <img src="pic1.gif">  <th bgcolor=#0033FF> 第2-5  
+<tr><th bgcolor=#FFFF00> 第3-1 <th  bgcolor=#FFFF00> 第3-5  
+<tr><th bgcolor=#FF0000> 第4-1 <th bgcolor=#FF0000> 第4-5  
+<tr><th bgcolor=#0033FF> 第5-1 <th bgcolor=#0033FF> 第5-5  
+<tr><th bgcolor=#FFFF00> 第6-1 <th> 第6-2 <th> 第6-3 <th> 第6-4 <th  bgcolor=#FFFF00> 第6-5
+</table>
+<br>
+<b class=c1>評價這張相片</b><br>
+<form> 
+您的名字：<input name="name" type="text" required tabindex="13"><br>
+您的 E-Mail：<input name="mail" type="text" tabindex="12"><br>
+性別：<input name="sex" type=radio value="male" tabindex="10">男
+<input name="sex" type=radio value="female" tabindex="9">女
+<hr>
+<b class=c1>您給這張照片的評價是：</b><br>
+<select name="Astro" tabindex="4">
+<option value=bad>不好看
+<option value=soso>差強人意
+<option value= normal>普通
+<option value=good>好
+<option value=bravo>太棒了
+</select>
+<hr>
+<b class=c1>您喜歡什麼類型的照片：</b><br>
+<input name="leisure" type=checkbox value=movie tabindex="8">自然風景<br>
+<input name="leisure" type=checkbox value=tv tabindex="7">人像<br>
+<input name="leisure" type=checkbox value=book tabindex="6">建築<br>
+<input name="leisure" type=checkbox value=computer tabindex="5">夜景<br>
+<hr>
+<b class=c1>您對這張照片的評語是：</b><br>
+<textarea name="extra" rows="3" cols="40" tabindex="3">
+</textarea>
+<hr>
+<input type=submit value="送出" tabindex="2">
+<input type=reset value="清除" tabindex="1">
+</form>
+</body>
+</html>
