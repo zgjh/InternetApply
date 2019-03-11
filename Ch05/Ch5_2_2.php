@@ -6,14 +6,14 @@
 </head>
 <body>
 <form name="form6" method="get" action="Ch5_2_2.php">
-
-請輸入成績:<input type="text" name="grade" >
+請輸入姓名:<input type="text" name="name" > </br>
+請輸入成績:<input type="text" name="grade" > </br>
 <input type="submit" value='送出'>
 <input type="reset" value='重寫'>
 
 </form>
 <?php 
-$name = "江小魚";  // 指定變數值
+$name = $_GET['name'];  // 指定變數值
 $grade = $_GET['grade'];
 // if/else條件敘述
 if ( $grade >= 60 ) {
